@@ -3,3 +3,12 @@ What happens when you initialize a repository? Why do you need to do it?
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 - directory contains files on which changes were made but are not ready to be commited. staging directory has the files are ready to commited to the repository. repository holds the commited changes.
+
+How can you use the staging area to make sure you have one commit per logical change?
+- Using 'git diff', I can see all the changes I have made in the working directory compared to the previous commit. I can then add only the files I decide is a single logical change and commit the changes 1 by 1.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+- When trying out some new features without playing with the main branch. This allows us to return to main code without fearing it has changed.
+
+How do the diagrams help you visualize the branch structure?
+- visualize the timeline of the branches and commits, to know the parent and find if any change might be unreachable.
